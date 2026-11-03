@@ -1,0 +1,9 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+:root{--bg:#f6f1ea;--surface:#efe7dc;--ink:#2b2622;--muted:#7b7068;--line:#ddd2c4;--accent:#a8745f;--onaccent:#fbf7f1}
+:root[data-palette="sage"]{--bg:#f2f3ee;--surface:#e6e9df;--ink:#262a25;--muted:#707669;--line:#d4d9cb;--accent:#68795f;--onaccent:#f7f8f3}
+:root[data-palette="blush"]{--bg:#f8f0ee;--surface:#f0e1de;--ink:#2e2325;--muted:#7f6c6e;--line:#e3cfcc;--accent:#9a5560;--onaccent:#fdf6f5}
+html{scroll-behavior:smooth;scroll-padding-top:72px}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Jost","Helvetica Neue",Arial,sans-serif;font-weight:300;-webkit-font-smoothing:antialiased}
+:root{--deep:#3b2b27;--soft:#e2b8a3}
+:root[data-palette="sage"]{--deep:#2f3a2d;--soft:#c3d1b8}
+:root[data-palette="blush"]{--deep:#46282f;--soft:#efc0c8}
